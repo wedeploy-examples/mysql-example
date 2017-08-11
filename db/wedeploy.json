@@ -1,7 +1,7 @@
 {
 	"id": "db",
+	"image": "mysql",
 	"volume": "/var/lib/mysql",
-	"port": 3306,
 	"env": {
 		"MYSQL_ROOT_PASSWORD": "passw0rd"
 	}
