@@ -1,5 +1,5 @@
 {
-	"id": "admin",
-	"image": "adminer:4.3",
+  "id": "admin",
+  "image": "adminer:4.3",
   "dependencies": ["db"]
 }
