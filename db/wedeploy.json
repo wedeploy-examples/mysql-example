@@ -1,9 +1,11 @@
 {
   "id": "db",
   "image": "mysql:5.5",
-  "volume": "/var/lib/mysql",
   "env": {
     "MYSQL_ROOT_PASSWORD": "passw0rd"
+  },
+  "volumes": {
+    "data": "/var/lib/mysql"
   },
   "zeroDowntime": true
 }
